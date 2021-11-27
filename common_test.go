@@ -7,7 +7,6 @@ import (
 	"github.com/gitopia/go-git/v5/plumbing"
 	"github.com/gitopia/go-git/v5/plumbing/cache"
 	"github.com/gitopia/go-git/v5/plumbing/format/packfile"
-	"github.com/gitopia/go-git/v5/plumbing/transport"
 	"github.com/gitopia/go-git/v5/storage/filesystem"
 	"github.com/gitopia/go-git/v5/storage/memory"
 
@@ -25,8 +24,7 @@ type BaseSuite struct {
 	fixtures.Suite
 	Repository *Repository
 
-	backupProtocol transport.Transport
-	cache          map[string]*Repository
+	cache map[string]*Repository
 }
 
 func (s *BaseSuite) SetUpSuite(c *C) {
