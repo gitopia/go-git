@@ -14,10 +14,10 @@ import (
 	"strings"
 	"time"
 
+	"github.com/gitopia/go-git/v5/plumbing"
+	"github.com/gitopia/go-git/v5/storage"
+	"github.com/gitopia/go-git/v5/utils/ioutil"
 	"github.com/go-git/go-billy/v5/osfs"
-	"github.com/go-git/go-git/v5/plumbing"
-	"github.com/go-git/go-git/v5/storage"
-	"github.com/go-git/go-git/v5/utils/ioutil"
 
 	"github.com/go-git/go-billy/v5"
 )

@@ -4,7 +4,7 @@ import (
 	"io"
 	"time"
 
-	"github.com/go-git/go-git/v5/plumbing/storer"
+	"github.com/gitopia/go-git/v5/plumbing/storer"
 )
 
 type commitLimitIter struct {

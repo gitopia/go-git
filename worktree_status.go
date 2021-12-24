@@ -9,17 +9,17 @@ import (
 	"path/filepath"
 	"strings"
 
+	"github.com/gitopia/go-git/v5/plumbing"
+	"github.com/gitopia/go-git/v5/plumbing/filemode"
+	"github.com/gitopia/go-git/v5/plumbing/format/gitignore"
+	"github.com/gitopia/go-git/v5/plumbing/format/index"
+	"github.com/gitopia/go-git/v5/plumbing/object"
+	"github.com/gitopia/go-git/v5/utils/ioutil"
+	"github.com/gitopia/go-git/v5/utils/merkletrie"
+	"github.com/gitopia/go-git/v5/utils/merkletrie/filesystem"
+	mindex "github.com/gitopia/go-git/v5/utils/merkletrie/index"
+	"github.com/gitopia/go-git/v5/utils/merkletrie/noder"
 	"github.com/go-git/go-billy/v5/util"
-	"github.com/go-git/go-git/v5/plumbing"
-	"github.com/go-git/go-git/v5/plumbing/filemode"
-	"github.com/go-git/go-git/v5/plumbing/format/gitignore"
-	"github.com/go-git/go-git/v5/plumbing/format/index"
-	"github.com/go-git/go-git/v5/plumbing/object"
-	"github.com/go-git/go-git/v5/utils/ioutil"
-	"github.com/go-git/go-git/v5/utils/merkletrie"
-	"github.com/go-git/go-git/v5/utils/merkletrie/filesystem"
-	mindex "github.com/go-git/go-git/v5/utils/merkletrie/index"
-	"github.com/go-git/go-git/v5/utils/merkletrie/noder"
 )
 
 var (

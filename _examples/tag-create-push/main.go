@@ -6,11 +6,11 @@ import (
 	"log"
 	"os"
 
-	"github.com/go-git/go-git/v5"
-	. "github.com/go-git/go-git/v5/_examples"
-	"github.com/go-git/go-git/v5/config"
-	"github.com/go-git/go-git/v5/plumbing/object"
-	"github.com/go-git/go-git/v5/plumbing/transport/ssh"
+	"github.com/gitopia/go-git/v5"
+	. "github.com/gitopia/go-git/v5/_examples"
+	"github.com/gitopia/go-git/v5/config"
+	"github.com/gitopia/go-git/v5/plumbing/object"
+	"github.com/gitopia/go-git/v5/plumbing/transport/ssh"
 )
 
 // Example of how create a tag and push it to a remote.

@@ -6,10 +6,10 @@ import (
 	"io"
 	stdioutil "io/ioutil"
 
-	"github.com/go-git/go-git/v5/plumbing"
-	"github.com/go-git/go-git/v5/plumbing/cache"
-	"github.com/go-git/go-git/v5/plumbing/storer"
-	"github.com/go-git/go-git/v5/utils/ioutil"
+	"github.com/gitopia/go-git/v5/plumbing"
+	"github.com/gitopia/go-git/v5/plumbing/cache"
+	"github.com/gitopia/go-git/v5/plumbing/storer"
+	"github.com/gitopia/go-git/v5/utils/ioutil"
 )
 
 var (
