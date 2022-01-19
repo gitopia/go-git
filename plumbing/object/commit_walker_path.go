@@ -1,6 +1,7 @@
 package object
 
 import (
+	"fmt"
 	"io"
 
 	"github.com/go-git/go-git/v5/plumbing"
@@ -112,6 +113,8 @@ func (c *commitPathIter) hasFileChange(changes Changes, parent *Commit) bool {
 		if !c.pathFilter(change.name()) {
 			continue
 		}
+
+		fmt.Println(change.name())
 
 		// filename matches, now check if source iterator contains all commits (from all refs)
 		if c.checkParent {
