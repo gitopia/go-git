@@ -114,7 +114,7 @@ func (c *commitPathIter) hasFileChange(changes Changes, parent *Commit) bool {
 			continue
 		}
 
-		fmt.Println(change.name())
+		fmt.Println("--> file: "+c.currentCommit.ID().String(), c.currentCommit.Message, change.name())
 
 		// filename matches, now check if source iterator contains all commits (from all refs)
 		if c.checkParent {
