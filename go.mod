@@ -7,6 +7,7 @@ require (
 	github.com/armon/go-socks5 v0.0.0-20160902184237-e75332964ef5
 	github.com/emirpasic/gods v1.12.0
 	github.com/flynn/go-shlex v0.0.0-20150515145356-3f9db97f8568 // indirect
+	github.com/gitopia/go-diff v0.0.0-20221011073329-132b1aebc86c
 	github.com/gliderlabs/ssh v0.2.2
 	github.com/go-git/gcfg v1.5.0
 	github.com/go-git/go-billy/v5 v5.3.1
@@ -17,7 +18,6 @@ require (
 	github.com/jessevdk/go-flags v1.5.0
 	github.com/kevinburke/ssh_config v0.0.0-20201106050909-4977a11b4351
 	github.com/mitchellh/go-homedir v1.1.0
-	github.com/sergi/go-diff v1.1.0
 	github.com/xanzy/ssh-agent v0.3.1
 	golang.org/x/crypto v0.0.0-20210711020723-a769d52b0f97
 	golang.org/x/net v0.0.0-20210326060303-6b1517762897
