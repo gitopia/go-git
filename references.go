@@ -8,7 +8,7 @@ import (
 	"github.com/gitopia/go-git/v5/plumbing/object"
 	"github.com/gitopia/go-git/v5/utils/diff"
 
-	"github.com/sergi/go-diff/diffmatchpatch"
+	"github.com/harry-hov/go-diff/diffmatchpatch"
 )
 
 // References returns a slice of Commits for the file at "path", starting from

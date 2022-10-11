@@ -14,7 +14,7 @@ import (
 	fdiff "github.com/gitopia/go-git/v5/plumbing/format/diff"
 	"github.com/gitopia/go-git/v5/utils/diff"
 
-	dmp "github.com/sergi/go-diff/diffmatchpatch"
+	dmp "github.com/harry-hov/go-diff/diffmatchpatch"
 )
 
 var (

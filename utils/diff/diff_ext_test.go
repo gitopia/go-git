@@ -5,7 +5,7 @@ import (
 
 	"github.com/gitopia/go-git/v5/utils/diff"
 
-	"github.com/sergi/go-diff/diffmatchpatch"
+	"github.com/harry-hov/go-diff/diffmatchpatch"
 	. "gopkg.in/check.v1"
 )
 

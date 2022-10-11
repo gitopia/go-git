@@ -1,7 +1,7 @@
 // Package diff implements line oriented diffs, similar to the ancient
 // Unix diff command.
 //
-// The current implementation is just a wrapper around Sergi's
+// The current implementation is just a wrapper around harry-hov's
 // go-diff/diffmatchpatch library, which is a go port of Neil
 // Fraser's google-diff-match-patch code
 package diff
@@ -10,7 +10,7 @@ import (
 	"bytes"
 	"time"
 
-	"github.com/sergi/go-diff/diffmatchpatch"
+	"github.com/harry-hov/go-diff/diffmatchpatch"
 )
 
 // Do computes the (line oriented) modifications needed to turn the src
