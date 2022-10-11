@@ -12,7 +12,7 @@ require (
 	github.com/go-git/go-billy/v5 v5.3.1
 	github.com/go-git/go-git-fixtures/v4 v4.2.1
 	github.com/google/go-cmp v0.3.0
-	github.com/harry-hov/go-diff v1.2.1-0.20221011070201-f441134edcae
+	github.com/harry-hov/go-diff v1.2.1-0.20221011071855-bbc760507cde
 	github.com/imdario/mergo v0.3.12
 	github.com/jbenet/go-context v0.0.0-20150711004518-d14ea06fba99
 	github.com/jessevdk/go-flags v1.5.0
