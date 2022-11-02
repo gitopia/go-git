@@ -166,9 +166,11 @@ func (dw *deltaSelector) fixAndBreakChainsOne(objectsToPack map[plumbing.Hash]*O
 	// 	// so we have to break the delta chain here.
 	// 	return dw.undeltify(otp)
 	// }
-
+	//
 	// base, ok := objectsToPack[do.BaseHash()]
-	base, ok := objectsToPack[otp.Object.Hash()]
+
+	base, ok := objectsToPack[otp.Base.Hash()]
+	// base, ok := objectsToPack[otp.Object.Hash()]
 	if !ok {
 		// The base of the delta is not in our list of objects to pack, so
 		// we break the chain.
